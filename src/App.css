@@ -1,27 +1,127 @@
-.App {
-  text-align: center;
+* {
+  font-family: initial
+  
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+h5{
+  color: #1941a0ba  !important;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
+label{
+  font-size: 20px;
+}
 
-.App-header {
-  background-color: #282c34;
+.btn-info {
+  width: 136px !important;
+  height: 52px !important;
+  font-size: 20px !important;
+  color: aliceblue !important;
+}
+
+.btn-info:hover {
+  color: black !important;
+}
+.card-title{
+  
+    padding: 14px;
+}
+.navbar{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); 
+}
+.btn-submit{
+  color: #fff;
+  font-size: 18px;
+  border: 1px solid;
+  border-radius: 10px;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); 
+}
+.btn-submit:hover{
+  color: #f1e9e9;
+  font-size: 18px;
+  font-weight: 600;
+  border: 1px solid;
+  border-radius: 10px;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); 
+}
+.form-control {
+  height: 30px;
+  font-size: 18px !important;
+}
+
+/* .submit{
+  margin: 20px;
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  padding: 10px;
+  background-color: rgb(106, 106, 234);
+  color: white;
+} */
+/* .App-header {
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color:black;
+} */
+.form-control {
+  padding: 29px !important;
+}
+
+
+.btn-primary{
+  width: 100%;
+height: 53px;
+font-size: 19px !important;
+}
+.btn-danger{
+
+    width: 10;
+  height: 53px;
+  font-size: 19px !important;
+  
+}
+
+.nav-link:focus, .nav-link:hover {
+  font-size: 20px !important;
+  color: white !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: var(--bs-navbar-nav-link-padding-x);
+  padding-left: var(--bs-navbar-nav-link-padding-x);
+  font-size: 23px !important;
+}
+.navbar-brand {
+  font-size: 23px !important;
+}
+.navbar-brand :hover{
+  font-size: 20px !important;
+}
+.cards {
+  width: 100% !important;
+  height: 40% !important;
+    border: 1px solid #b4bcc4;
+    border-radius: 12px;
+}
+.btn-danger{
+  width: 136px !important;
+  height: 52px !important;
+  font-size: 20px !important; 
 }
 
 .App-link {
@@ -32,7 +132,99 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+.edit_sales i {
+  color: #ffffff;
+  font-size: 16px; /* Font size increased for better visibility */
+}
+
+.edit_sales {
+ 
+  background:  rgb(18, 18, 255) ; 
+  border-radius: 50%; 
+  border: none;
+  padding: 10px; 
+  color: #fff;
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out; 
+}
+.table{
+  text-align: center;
+}
+.edit_sales:hover {
+  background:  rgba(23, 23, 143, 0.397) ;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
+  color: #fff;
+
+}
+
+.delete-record i {
+  color: #fff;
+  font-size: 16px; 
+}
+
+.delete-record {
+  background-color: red; 
+  border-radius: 50%;
+  border: none; 
+  color: #fff;
+  padding: 10px; 
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out; 
+}
+
+.delete-record:hover {
+  background-color: #c82333;
+  color: #fff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.btn-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.icon{
+  width: 23px;
+  height: 19px;
+  padding-bottom: 5px;
+}
+/* Custom CSS */
+.card {
+  width: 100%;
+  background-color: #f8f9fa;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+.paswrd {
+  position: relative;
+}
+
+.paswrd i {
+  position: absolute;
+  top: 63%;
+  right: 25px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.errors {
+  border-radius: 4px !important;
+  color: #ea868f !important;
+  display: inline-block !important;
+}
+table,
+.thead{
+  background:#064788 !important;
 }
